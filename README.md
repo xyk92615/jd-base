@@ -4,6 +4,7 @@
 ## 下载运行
 ```bash
 wget -q https://raw.githubusercontent.com/AkaneMurakawa/jd-base/main/jd-base.sh -O jd-bash.sh && chmod +x jd-bash.sh && ./jd-bash.sh
+# 测试京东豆变化docker exec jd bash jd jd_bean_change now
 ```
 
 ## 控制面板
