@@ -1,17 +1,24 @@
 # jd-base
-一键搭建jd-base环境
+一键搭建shuye72/jd-base:gitee环境
 
-## 运行
+## 下载运行
 ```bash
-sudo sh jd-base.sh
-# 如未修改用户名密码，则初始用户名为：admin，初始密码为：shuye72
-# 请访问 http://<ip>:5678 登陆并修改配置...
-# 注:一些依赖需挂梯子
+wget -q https://raw.githubusercontent.com/AkaneMurakawa/jd-base/main/jd-base.sh -O jd-bash.sh && chmod +x jd-bash.sh && ./jd-bash.sh
 ```
-## 搭建运行常见问题
-https://www.kejiwanjia.com/zheteng/286.html
 
-https://www.kejiwanjia.com/zheteng/1123.html
+## 控制面板
+- 如未修改用户名密码，则初始用户名为：admin，初始密码为：shuye72
+- 请访问 http://<ip>:5678 登陆并修改配置...
+  
+## 运行失败-443... failed: Connection refused
+- 使用命令`ll | grep jd-bash.sh`查看`jd-bash.sh
+- 修改hosts
+```
+vim /etc/hosts
+# 增加下面内容
+199.232.68.133 raw.githubusercontent.com
+```
+- 重新执行下载命令
 
 ## 免责声明
 - 此仓储脚本仅用于学习研究，不保证其合法性、准确性、有效性，请根据情况自行判断，本人对此不承担任何保证责任。
