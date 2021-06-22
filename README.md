@@ -19,6 +19,7 @@ vim /etc/hosts
 # 增加下面内容
 199.232.68.133 raw.githubusercontent.com
 ```
+- 若是仍不行，则自行手动下载`jd-bash.sh`
 - 重新执行下载命令
   
 ### 控制面板打开失败  
