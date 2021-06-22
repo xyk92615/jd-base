@@ -4,7 +4,7 @@
 export JD_HOME="/usr/local/data/jd_base"
 
 sudo docker pull shuye72/jd-base:gitee;
-sudo mkdir -p $JD_HOME/logs;
+sudo mkdir -p $JD_HOME/log;
 sudo mkdir -p $JD_HOME/config;
 sudo mkdir -p $JD_HOME/scripts;
 
@@ -13,7 +13,7 @@ sudo docker rm jd-base;
 
 sudo docker run -d --name jd-base \
   -p 5678:5678 \
-  -v $JD_HOME/logs:/jd/logs \
+  -v $JD_HOME/log:/jd/log \
   -v $JD_HOME/config:/jd/config \
   -v $JD_HOME/scripts:/jd/scripts \
   --restart always \
