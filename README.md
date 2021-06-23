@@ -1,12 +1,14 @@
 # jd-base
 一键搭建shuye72/jd-base:gitee环境
 
-## 下载运行
+## 一键运行
 ```bash
 wget -q https://raw.githubusercontent.com/AkaneMurakawa/jd-base/main/jd-base.sh -O jd-bash.sh && chmod +x jd-bash.sh && ./jd-bash.sh
 # 测试京东豆变化
 # docker exec jd bash jd jd_bean_change now
 ```
+## 小白一键运行
+针对小白，可以下载`run_ones.sh`，一键安装Docker和运行jd-base
 
 ## 控制面板
 - 如未修改用户名密码，则初始用户名为：admin，初始密码为：shuye72
@@ -20,6 +22,10 @@ wget -q https://raw.githubusercontent.com/AkaneMurakawa/jd-base/main/jd-base.sh 
 vim /etc/hosts
 # 增加下面内容
 199.232.68.133 raw.githubusercontent.com
+  
+或者
+sudo su;
+echo "199.232.68.133 raw.githubusercontent.com" >> /etc/hosts
 ```
 - 若是仍不行，则自行手动下载`jd-bash.sh`
 - 重新执行下载命令
