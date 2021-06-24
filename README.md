@@ -12,7 +12,7 @@ wget -q https://raw.githubusercontent.com/AkaneMurakawa/jd-base/main/jd-base.sh 
 
 ## 控制面板
 - 如未修改用户名密码，则初始用户名为：admin，初始密码为：shuye72
-- 请访问 http://<ip>:5678 登陆并修改配置...
+- 请访问 http://\<ip\>:5678 登陆并修改配置...
   
 ## 常见问题
 ### 运行失败-443... failed: Connection refused
