@@ -28,7 +28,7 @@ sudo su;
 echo "199.232.68.133 raw.githubusercontent.com" >> /etc/hosts
 ```
 - 若是仍不行，则自行手动下载`jd-bash.sh`
-- 重新执行下载命令
+- 手动运行`jd-bash.sh`
   
 ### 控制面板打开失败  
 请确保docker运行的命令和jd-bash.sh是一致的，切勿随便增添参数
