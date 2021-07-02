@@ -10,6 +10,9 @@ wget -q https://raw.githubusercontent.com/AkaneMurakawa/jd-base/main/jd-base.sh 
 ## 小白一键运行
 针对小白，可以下载`run_ones.sh`，一键安装Docker和运行jd-base
 
+## Windows开机自动启动虚拟机系统
+[run_virtual_vm_on_windows_started.bat](https://github.com/AkaneMurakawa/my-script/blob/main/run_virtual_vm_on_windows_started.bat)
+
 ## 控制面板
 - 如未修改用户名密码，则初始用户名为：admin，初始密码为：shuye72
 - 请访问 http://\<ip\>:5678 登陆并修改配置...
